@@ -1,0 +1,36 @@
+.container{
+position: relative;
+top:0;
+left:0;
+z-index: 2;
+height: 100vh;
+
+
+}
+.container div:first-child{
+    background-color: white;
+    width: 1px;
+    height: 50vh;
+    margin-top: -5vh;
+    margin-left: 20vw;
+    
+}
+.container div:nth-child(2){
+    background-color: white;
+    width: 2px;
+    height: 30vh;
+    margin-top: -55vh;
+    margin-left: 19.978vw;
+    
+}
+
+
+.container p{
+    font-size:2.5vh;
+    padding-top: 30vh;
+    padding-left: 25vw;
+    width: 25vw;
+    margin-block-start: 0;
+    margin-block-end: 0;
+ 
+}

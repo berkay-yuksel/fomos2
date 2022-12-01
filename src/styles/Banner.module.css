@@ -1,0 +1,84 @@
+.container{
+    height: 100vh;
+    
+}
+
+.first_row{
+    position: absolute;
+    top: 15vh;
+    left: 11vw;
+    font-size: 17vh;
+    z-index: 4;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    line-height: 20vh;
+    color:white;
+    font-weight: bold;
+}
+
+.pluto_container{
+   
+position: absolute;
+z-index: 1;
+display: block;
+height: 900px;
+width: 900px;
+top: 23vh;
+left: 38vw;
+}
+
+.second_row{
+    position: absolute;
+    top: 34vh;
+    left: 18vw;
+    font-size: 17vh;
+    z-index: 6;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    line-height: 20vh;
+    color: rgba(9,1,1,0);
+    -webkit-text-stroke: 1px #fff;
+    
+}
+
+.container p{
+width: 35vw;
+position: absolute;
+z-index: 6;
+top: 60vh;
+left: 50vw;
+font-size:2.5vh;
+margin-block-start: 0;
+margin-block-end: 0;
+}
+.halo2 {
+  
+    position: absolute;
+    top: 15vh;
+    left: 35vw;
+    width: 700px;
+    height: 700px;
+    border-radius: 50%;
+    box-shadow:
+      inset 0 0 50px #fff,
+      inset 20px 0 80px #f0f,
+      inset -20px 0 80px #0ff,
+      inset 20px 0 300px #f0f,
+      inset -20px 0 300px #0ff,
+      0 0 50px #fff,
+      -10px 0 80px #f0f,
+      10px 0 80px #0ff;
+      z-index: 3;
+  } 
+  .halo{
+    width: 86vh;
+    height: 86vh;
+    position: absolute;
+    top: -2vh;
+    left: 20vw;
+    z-index: 3;
+    border: 12px inset rgba(255,255,255,0.4);
+    border-radius: 50%;
+    
+    filter: blur(36px);
+  }
