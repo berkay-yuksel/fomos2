@@ -19,9 +19,12 @@
     width: 61.11vw;
     height: 40.23vw;
     filter: grayscale();
+    transition: 3s;
+   
 }
 .container img:hover{
     filter: none;
+   
 }
 .container span{
     font-weight: bold;

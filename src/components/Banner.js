@@ -1,8 +1,9 @@
-import {lazy} from 'react'
+
 import banner from '../styles/Banner.module.css'
 
-/* import PlutoImage from '../assets/plt.webp' */
-const Pluto = lazy(()=> import('./Pluto'))
+ import PlutoImage from '../assets/plt.webp' 
+
+ import Pluto from '../components/Pluto'
 
 const Banner = () => {
   return (

@@ -1,4 +1,3 @@
-import {lazy} from 'react'
 
 import main from './styles/Main.module.css'
 
@@ -6,9 +5,8 @@ import main from './styles/Main.module.css'
 import LeftBar from './components/LeftBar.js'
 import RightBar from './components/RightBar.js'
 import Banner from './components/Banner.js'
-
-const Story = lazy(()=> import('./components/Story.js'))
-const Filler = lazy(()=> import('./components/Filler.js'))
+import Filler from './components/Filler.js'
+import Story from './components/Story.js'
 
 
 const App = () => {

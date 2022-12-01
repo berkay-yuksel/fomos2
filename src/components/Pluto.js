@@ -3,6 +3,8 @@ import React, { useRef, Suspense } from "react";
 import { Canvas, extend, useFrame, useLoader } from "@react-three/fiber";
 import { shaderMaterial } from "@react-three/drei";
 import glsl from "babel-plugin-glsl/macro";
+import PlutoImage from '../assets/plt.webp'
+
 const WaveShaderMaterial = shaderMaterial(
     // Uniform
     {
@@ -60,7 +62,7 @@ const WaveShaderMaterial = shaderMaterial(
     useFrame(({ clock }) => (ref.current.uTime = clock.getElapsedTime()));
   
     const [image] = useLoader(THREE.TextureLoader, [
-      "https://storage.cloudconvert.com/tasks/c758c92b-28f6-4885-ba75-4de909bb30e2/plt.webp?AWSAccessKeyId=cloudconvert-production&Expires=1669903805&Signature=37wuWKT9vxGrKodRy%2ByO41lxqNI%3D&response-content-disposition=inline%3B%20filename%3D%22plt.webp%22&response-content-type=image%2Fwebp"
+      PlutoImage
     ]);
   
     return (
