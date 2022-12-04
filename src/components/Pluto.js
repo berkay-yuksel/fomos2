@@ -3,7 +3,7 @@ import React, { useRef, Suspense } from "react";
 import { Canvas, extend, useFrame, useLoader } from "@react-three/fiber";
 import { shaderMaterial } from "@react-three/drei";
 import glsl from "babel-plugin-glsl/macro";
-import PlutoImage from '../assets/plt.webp'
+import PlutoImage from '../assets/pluto3.png'
 
 const WaveShaderMaterial = shaderMaterial(
     // Uniform
@@ -67,8 +67,8 @@ const WaveShaderMaterial = shaderMaterial(
   
     return (
       <mesh>
-        <planeBufferGeometry args={[1, 1, 20, 20]} />
-        <waveShaderMaterial uColor={"hotpink"} ref={ref} uTexture={image}  />
+        <planeBufferGeometry args={[1, 1, 170, 170]} />
+        <waveShaderMaterial uColor={"hotpink"} ref={ref} uTexture={image} wireframe />
       </mesh>
     );
   };

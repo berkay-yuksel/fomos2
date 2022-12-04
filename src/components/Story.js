@@ -1,12 +1,11 @@
 import story from '../styles/Story.module.css'
 import Story1Image from '../assets/story1.webp'
 
-const Story = () => {
+const Story = ({textLeave,imageEnter,onMouseEnter,onMouseLeave}) => {
   return (
-    <div className={story.container}>
+    <div onMouseEnter={imageEnter} onMouseLeave={textLeave}  className={story.container}>
       <h2>ep1 inviting participants</h2>
       <img src={Story1Image} />
-      <span>explore</span>
       <h3>bu da bir başlıktır neticesinde <br/> ve iki satırı da kaplamaktadır</h3>
     <div>
     <div></div>

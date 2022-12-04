@@ -18,3 +18,18 @@
     left:0;
     z-index: 0;
 }
+
+.cursor {
+    background-color: rgb(9, 204, 194);
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }

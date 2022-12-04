@@ -1,6 +1,5 @@
 import leftbar from '../styles/LeftBar.module.css'
 
-import ph from "../assets/ph.png"
 
 const LeftBar = () => {
   return (

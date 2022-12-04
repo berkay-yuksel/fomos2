@@ -82,3 +82,9 @@ margin-block-end: 0;
     
     filter: blur(36px);
   }
+
+  .coming_soon{
+    position: absolute;
+    top:88vh;
+    left: 7vw;
+  }
